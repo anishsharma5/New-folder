@@ -2,7 +2,7 @@
 
 
 *{
-  background:linear-gradient(90deg ,  #9198e5 10%,  #e66465 70%) ;
+  background:linear-gradient(90deg , #538FFB 0%, #5B54FA 100%) ;
   font-family: 'Montserrat';
 }
 span{
@@ -28,12 +28,21 @@ p{
 .btn{
   background:transparent;
   color: #1f1f1f;
-  border-radius: 80px;
-  padding: 3px 12px;
+   border-radius: 80px; 
+  padding: 5px 12px;
   font-weight:800 ;
+  font-size: 15px;
   cursor: grab;
   transition: color,30ms;
+  margin-top: 5px;
 }
 .btn:hover{
   color: #FFFF;
+}
+.lco{
+  /* background-color: #ffff;  */
+  transition: 30ms;
+} 
+.lco:hover{
+  background-color: #1f1f1f;
 }
